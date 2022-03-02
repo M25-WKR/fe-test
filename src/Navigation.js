@@ -1,38 +1,25 @@
-import React from 'react'
-import { Link } from '@reach/router'
-import HuelLogo from './HuelLogo'
+import React from "react";
+import { Link } from "@reach/router";
+import HuelLogo from "./HuelLogo";
 
 const Navigation = () => {
   return (
-    <div className="column is-one-fifth acc-menu is-hidden-touch">
-      <HuelLogo />
-      <ul className="menu-list acc-menu-list">
-        <li className="acc-menu-overview">
-          <Link to="/">
-            <div className="acc-menu-item">
-              <div className="acc-menu-icon is-hidden-tablet-only">
-                <img
-                  alt="Profile"
-                  className="image"
-                  src="https://www.gravatar.com/avatar/013688f95c442156af947819c17a1a99.jpg?d=identicon"
-                />
-              </div>
-              <div className="acc-menu-customer">
-                <p>Overview</p>
-              </div>
-            </div>
-          </Link>
-        </li>
-        <li>
-          <Link to="/task">
-            <div className="acc-menu-item">
-              <span>Technical Task</span>
-            </div>
-          </Link>
-        </li>
-      </ul>
-    </div>
-  )
-}
+    <nav className="Navbar">
+      <div className="Navbar__container u-container">
+        <div className="Navbar__logo">
+          <HuelLogo />
+        </div>
+        <ul className="Navbar__list">
+          <li className="Navbar__list-item">
+            <Link to="/">Overview</Link>
+          </li>
+          <li className="Navbar__list-item">
+            <Link to="/task">Task</Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
-export default Navigation
+export default Navigation;
