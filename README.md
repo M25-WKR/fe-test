@@ -1,6 +1,6 @@
-# React Account Area Adventure
+# Huel frontend technical test
 
-Hi there, feel free to fork this repository.
+Task instructions are found in the app.
 
 ## Project setup
 
