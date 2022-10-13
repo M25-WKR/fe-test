@@ -1,12 +1,6 @@
-import React from "react";
-
 const HuelLogo = () => {
   return (
-    <svg
-      className="HuelLogo"
-      viewBox="0 0 3261.2 1132.8"
-      // style={{ width: "60%", padding: "1.2rem 1.2rem 0" }}
-    >
+    <svg viewBox="0 0 3261.2 1132.8">
       <g>
         <rect x="2715.9" width="221.3" height="1112.6"></rect>
         <path
